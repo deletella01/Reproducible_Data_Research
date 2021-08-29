@@ -22,11 +22,6 @@ This project analysis can viewed at https://rpubs.com/Deletella01/639255
 
 ## Data
 
-The data for this assignment can be downloaded from the course web
-site:
-
-* Dataset: [Activity monitoring data](https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip) [52K]
-
 The variables included in this dataset are:
 
 * **steps**: Number of steps taking in a 5-minute interval (missing
@@ -47,17 +42,14 @@ dataset.
 
 
 ## Assignment
-
-This assignment will be described in multiple parts. The report written
-answers the questions detailed below. Ultimately, the entire assignment
-was completed in a **single R markdown** document that was 
+**The report written answers the questions detailed below.** Ultimately, the 
+entire project was completed in a **single R markdown** document that was
 processed by **knitr** and transformed into an HTML file.
 
 Throughout the report, the code that was used to generate the output 
-presented were always included. When writing code chunks in the R markdown
+presented were included. When writing code chunks in the R markdown
 document, `echo = TRUE` was used so that someone else will be able to
 read the code.
-
 
 ### Loading and preprocessing the data
 
@@ -70,7 +62,7 @@ All the code Shown includes:
 
 ### What is mean total number of steps taken per day?
 
-For this part of the assignment,the missing values in
+For this part of the project, the missing values in
 the dataset were ignored.
 
 1. A histogram of the total number of steps taken each day was made.
@@ -80,7 +72,8 @@ the dataset were ignored.
 
 ### What is the average daily activity pattern?
 
-1. A time series plot (i.e. `type = "l"`) of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all days (y-axis) was made.
+1. A time series plot (i.e. `type = "l"`) of the 5-minute interval (x-axis) and the average 
+   number of steps taken, averaged across all days (y-axis) was made.
 
 2. The maximum number of steps for every 5-minute interval, on average across all the days in the dataset.
 
